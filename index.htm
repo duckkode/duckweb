@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="app.js"></script>
+        <title>Pokescramble!</title>
+    </head>
+    <body style="text-align: center">
+        <!--<form method="GET" action="#" onsubmit="return false;">-->
+
+        <h1>Pokescramble!</h1>
+        <button type="button" id="newPokemon" onclick="newPokemon()">New Pokemon!</button>
+        <div id="scramble"></div>
+        <input type="text" id="guess" onkeypress="checkSubmit(event)"></input>
+        <button type="button" onclick="guess()">Submit</button>
+        <div id="timer" style="font-size: 30px"></div>
+        <div id="feedback"></div>
+        <br>
+        <div id="pokemon"></div>
+
+    <!--</form>-->
+    </body>
+</html>
